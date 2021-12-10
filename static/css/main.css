@@ -1,0 +1,47 @@
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+img.pfp {
+    max-height: 64px;
+    max-width: 64px;
+}
+
+.form-register {
+    width: 100%;
+    max-width: 660px;
+    margin: auto;
+}
+
+.form-login {
+    width: 100%;
+    max-width: 660px;
+    margin: auto;
+}
+
+.form-post {
+    width: 100%;
+    max-width: 660px;
+    margin: auto;
+}
+
+.not-found {
+    width: 100%;
+    max-width: 660px;
+    margin: auto;
+}
+
+/* .post {
+    width: 100%;
+    max-width: 660px;
+    margin: auto;
+} */
+
+/* .comment {
+    width: 100%;
+    max-width: 660px;
+} */

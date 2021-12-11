@@ -94,7 +94,7 @@ if ($image_id != 0) {
   $new_id = $conn->insert_id;
 } else {
   $new_post_stmt = $conn->prepare("INSERT INTO inlägg(titel, innehåll, skapare) VALUES (?, ?, ?)");
-  $new_post_stmt->bind_param("ssii", $title, $contents, $_SESSION["uid"]);
+  $new_post_stmt->bind_param("ssi", $title, $contents, $_SESSION["uid"]);
   $new_post_stmt->execute();
   $new_post_stmt->close();
   $new_id = $conn->insert_id;

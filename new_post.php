@@ -6,7 +6,7 @@ $pageTitle = "Nytt inlägg";
 require_once("inc/header.php");
 
 if (!$logged_in) {
-  header("Location: index.php");
+  header("Location: login.php");
   die();
 }
 ?>

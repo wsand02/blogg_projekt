@@ -32,5 +32,7 @@ $result = $conn->query("SELECT * FROM inlägg ORDER BY skapades DESC");
       </a>
     <?php } ?>
   </div>
+<?php } else { ?>
+<p>Det finns tyvärr inga inlägg.</p>
 <?php } ?>
 <?php require_once("inc/footer.php"); ?>
